@@ -1,19 +1,384 @@
+* {
+  box-sizing:border-box;
+}
 
+html {
+  font-family:"Helvetica", sans-serif;
+  font-size:16px;
+  color:#4A4A4A;
+}
 
+  /* Header Section */
+header {
+  position:fixed;
+  z-index:100;
+  top:0;
+  width:100%;
+  background-color:white;
+  height:4rem;
+}
 
+a {
+  text-decoration:none;
+}
+
+.header {
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  padding-right:1.8rem;
+  padding-left:1.8rem;
+}
 
 .mobilenavigation {
   display:none;
+}
+
+.logo {
+  display:flex;
+  align-items:center;
+}
+
+.logoicon {
+  height:3rem;
+}
+
+.ColmarAcademy1 {
+  font-size:1.5rem;
+  font-weight:bold;
+  color:#4A4A4A;
+  padding-left:0.1rem;
+}
+
+.Academy {
+  color:darkgray;
+  font-weight:normal;
+  letter-spacing: 0.1rem;
+  padding-left:0.1rem;
+}
+.Oncampus {
+  padding-right:1rem;
+  color:lightgray;
+}
+
+.oncampuslink {
+  color:#4A4A4A;
+  font-size:1.25rem;
+}
+
+.online {
+  padding-right:1rem;
+}
+
+.onlinelink {
+  color:#4A4A4A;
+  font-size:1.25rem;
+}
+
+.companylink {
+  color:#4A4A4A;
+  font-size:1.25rem;
+}
+
+.signinlink {
+  color:#4A4A4A;
+  font-size:1.25rem;
+}
+
+.forcompanies {
+  padding-right:1rem;
+  color:darkgray;
+}
+
+.signin {
+  color:darkgray;
+}
+
+    /*Main Section*/
+main {
+  position:relative;
+  z-index:10;
+  top:2rem;
+}
+
+  /*Sign-up Section*/
+
+.maintopsection {
+  display:flex;
+  background-color:darkgray;
+  padding-top:4rem;
+  padding-left:1.8rem;
+}
+
+.maintopsectionimage {
+  width:60%;
+  margin-right:4rem;
+}
+
+.banner1 {
+  width:100%;
+  padding-bottom:4rem;
+}
+
+.maintopsectioncontent {
+  width:40%;
+  padding-top:4rem;
+}
+
+.learnnew {
+  font-size:3.25rem;
+  color:#4A4A4A;
+}
+
+.Loremipsum {
+  color:#4A4A4A;
+  font-size:1.8rem;
+}
+
+.Startherebutton{
+  text-align:center;
+  background-color:#4A4A4A;
+  padding-top:0.8rem;
+  padding-bottom:0.8rem;
+  width:85%;
+  border: 1px solid #4A4A4A;
+  border-radius: 0.25rem;
+}
+
+.startherelink {
+  color:white;
+  font-size:1.5rem;
+}
+
+/* About School Section */
+
+.main2section {
+  margin-top:2rem;
+  display:flex;
+}
+
+.Keeppracticingsection {
+  width:60%;
+  padding-left:1.8rem;
+}
+
+.main2image {
+  width:97%;
+}
+
+.keeppracticingcontent {
+  width:97%;
+}
+
+.keeppracticing {
+  color:#4A4A4A;
+}
+
+.Curabitur {
+  margin-bottom:2rem;
+}
+
+.Emanuel {
+  margin-bottom:2rem;
+}
+
+.InfoSection {
+  width:40%;
+}
+
+.OrientationSection {
+  display:flex;
+  margin-bottom:1rem;
+}
+
+.orientationimage {
+  width:35%;
+}
+
+.orientationimagedesktop{
+  width:100%;
+  height:auto;
 }
 
 .orientationimagemobile {
   display:none;
 }
 
+.orientationcontent {
+  width:65%;
+  padding-left:2rem;
+}
+
+
+.OurcampusSection {
+  display:flex;
+  margin-bottom:1rem;
+}
+
+.campusimage{
+  width:35%;
+}
+
+.campusdesktopimage{
+  width:100%;
+  height:auto;
+}
+
+.ourcampuscontent {
+  width:65%;
+  padding-left:2rem;
+}
+
 .campusmobileimage {
   display:none;
 }
 
+.GuestlectureSection {
+  display:flex;
+  margin-bottom:1rem;
+}
+
+.guestlectureimage{
+  width:35%;
+}
+
+.guestlecturedesktopimage{
+  width:100%;
+  height:auto;
+}
+
+.guestlecturecontent {
+  width:65%;
+  padding-left:2rem;
+}
+
 .guestlecturemobileimage {
   display:none;
+}
+
+
+/* Courses Section */
+
+.main3section {
+  margin-top:2rem;
+  padding-bottom:4rem;
+  background:lightgray;
+}
+
+.Startlearning {
+  text-align: center;
+  font-size:3rem;
+  padding-top:2rem;
+  padding-bottom:2rem;
+}
+
+.courses {
+  display:flex;
+  flex-wrap:wrap;
+  padding-right:4.5rem;
+  padding-left:4.5rem;
+
+}
+
+.SoftwareEngineeringSection {
+  width:30%;
+  background-color:white;
+  margin-right:2rem;
+}
+
+.Softwareimage {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+}
+
+.SEcontent {
+  margin:1rem;
+  padding-bottom:0.8rem;
+}
+
+.ComputerArtSection {
+  width:30%;
+  background-color:white;
+  margin-right:2rem;
+}
+
+.CArtimage {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+}
+
+.ComputerArtcontent {
+  margin:1rem;
+  padding-bottom:0.8rem;
+}
+
+.DesignSection {
+  width:30%;
+  background-color:white;
+}
+
+.Designimage1 {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+}
+
+.Designcontent {
+  margin:1rem;
+  padding-bottom:0.8rem;
+}
+
+.DataSection {
+  width:30%;
+  background-color:white;
+  margin-top:2rem;
+  margin-right:2rem;
+}
+
+.Dataimage1 {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+}
+
+.Datacontent{
+  margin:1rem;
+  padding-bottom:0.8rem;
+}
+
+.BusinessSection {
+  width:30%;
+  background-color:white;
+  margin-top:2rem;
+  margin-right:2rem;
+}
+
+.Businessimage1 {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+}
+
+.Businesscontent {
+  margin:1rem;
+  padding-bottom:0.8rem;
+}
+
+.MarketingSection {
+  width:30%;
+  background-color:white;
+  margin-top:2rem;
+}
+
+.Marketingimage1 {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+}
+
+.Marketingcontent {
+  margin:1rem;
+  padding-bottom:0.8rem;
 }
