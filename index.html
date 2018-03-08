@@ -5,16 +5,18 @@
     <title>ColmarAcademy</title>
     <link href="./resources\css\style.css" type="text/css" rel="stylesheet">
     <link href="./resources\css\reset.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="./resources\images\favicon (1).ico" type="image/x-icon">
+    <link rel="icon" href="./resources\images\favicon (1).ico" type="image/x-icon">
   </head>
 
   <body>
               <!-- ColmarAcademy Webpage -->
     <header>
-            <!-- Site Navigation -->
+            <!-- Desktop Site Navigation -->
       <div class="header">
           <div class="logo">
               <div class="logoicon">
-                  <img class="logoicon" src="./"/>
+                  <img class="logoicon" src="./resources\images\ic-logo.svg"/>
               </div>
 
               <div class="ColmarAcademy">
@@ -23,21 +25,47 @@
           </div>  <!-- div class="logo" closing tag -->
 
           <nav class="desktopnavigation">
-            <span class="Oncampus"> On campus </span>
-            <span class="online"> Online </span>
-            <span class="forcompanies"> For companies </span>
-            <span class="signin"> Sign in </span>
+            <span class="Oncampus"><a class="oncampuslink" href="#"> On campus </a></span>
+            <span class="online"><a class="onlinelink" href="#"> Online </a></span>
+            <span class="forcompanies"><a class="companylink" href="#"> For companies </a></span>
+            <span class="signin"><a class="signinlink" href="#"> Sign in </a></span>
           </nav>
+
+                      <!--Mobile Navigation -->
+             <div class="mobilenavigation">
+
+                     <div class="logomobilesection">
+                           <span class="logomobile"><a class="logomobilelink" href="#">
+                           <img class="logomobileimage" src="./resources\images\ic-logo.svg" alt="ColmarAcademy" /> </a></span>
+                     </div>
+
+                     <div class="Campusmobilesection">
+                           <span class="Campusmobile"> <a class="Campusmobilelink" href="#">
+                           <img class="Campusmobileimage" src="./resources\images\ic-on-campus.svg" alt="On Campus"/></a></span>
+                     </div>
+
+                     <div class="Onlinemobilesection">
+                           <span class="Onlinemobile"> <a class="Onlinemobilelink" href="#">
+                           <img class="Onlineimage" src="./resources\images\ic-online.svg" alt="Online"/></a></span>
+                     </div>
+
+                     <div class="Loginmobilesection">
+                           <span class="Loginmobile"> <a class="Loginmobilelink" href="#">
+                           <img class="Loginimage" src="./resources\images\ic-login.svg" alt="Sign in"/></a></span>
+                     </div>
+
+               </div> <!--div class="mobile_tabletnavigation" closing tag -->
 
       </div> <!-- div class="header" closing tag -->
 
     </header>
 
     <main>
+                    <!-- Sign-up Section -->
 
          <div class="maintopsection">
               <div class="maintopsectionimage">
-                  <img class="" src=""/>
+                  <img class="banner1" src="./resources\images\banner.jpg"/>
               </div>
 
               <div class="maintopsectioncontent">
@@ -54,12 +82,13 @@
 
         </div> <!-- div class="maintopsection" closing tag -->
 
-        <div class="main2section">
+                <!-- About School Section-->
 
+        <div class="main2section">
 
             <div class="Keeppracticingsection">
                 <div class="keepimage">
-                    <img class="" src=""/>
+                    <img class="main2image" src="./resources\images\information-main.jpg"/>
                 </div>
 
                 <div class="keeppracticingcontent">
@@ -77,7 +106,11 @@
 
                 <div class="OrientationSection">
                     <div class="orientationimage">
-                        <img class="" src="" />
+                                  <!--Desktop image-->
+                        <img class="orientationimagedesktop" src="./resources\images\information-orientation.jpg" />
+
+                                  <!--Mobile image-->
+                        <img class="orientationimagemobile"  src="./resources\images\information-orientation-mobile.jpg"/>
                     </div>
 
                     <div class="orientationcontent">
@@ -92,7 +125,13 @@
                 <div class="OurcampusSection">
 
                     <div class="campusimage">
-                        <img class="" src="" />
+
+                        <!-- Desktop image -->
+                        <img class="campusdesktopimage" src="./resources\images\information-campus.jpg" />
+
+                        <!-- Mobile image -->
+                        <img class="campusmobileimage" src="./resources\images\information-campus-mobile.jpg" />
+
                     </div>
 
                     <div class="ourcampuscontent">
@@ -107,7 +146,12 @@
                <div class="GuestlectureSection">
 
                     <div class="guestlectureimage">
-                        <img class="" src="" />
+
+                            <!--Desktop image -->
+                        <img class="guestlecturedesktopimage" src="./resources\images\information-guest-lecture.jpg" />
+
+                            <!--Mobile image -->
+                        <img class="guestlecturemobileimage" src="./resources\images\information-guest-lecture-mobile.jpg" />
                     </div>
 
                     <div class="guestlecturecontent">
@@ -124,6 +168,152 @@
            </div> <!-- closing tag div class="InfoSection" -->
 
         </div> <!--div class="main2section" closing tag -->
+
+
+                  <!-- Courses Section -->
+
+        <div class="main3section">
+          <h1 class="Startlearning"> Start learning </h1>
+
+          <div class="courses">
+             <div class="SoftwareEngineeringSection">
+                  <div class="SEimage">
+                      <img class="Softwareimage" src="./resources\images\course-software.jpg"/>
+                   </div>
+
+                   <div class="SEcontent">
+                      <h2 class="SoftwareEngineering"> Software engineering </h2>
+                      <h3 class="SECourses"> Courses </h3>
+                      <h3 class="SECourselist"> Web Development, Mobile Development,
+                        iOT, APIs </h3>
+                   </div>
+             </div>
+
+             <div class="ComputerArtSection">
+                  <div class="ComputerArtimage">
+                      <img class="CArtimage" src="./resources\images\course-computer-art.jpg"/>
+                   </div>
+
+                   <div class="ComputerArtcontent">
+                      <h2 class="ComputerArt"> ComputerArt </h2>
+                      <h3 class="ComputerArtCourses"> Courses </h3>
+                      <h3 class="ComputerArtCourselist"> Imaging & Design, Web Design,
+                      Motion Graphics & Visual Effects, Computer Animation</h3>
+                   </div>
+             </div>
+
+             <div class="DesignSection">
+                  <div class="Designimage">
+                      <img class="Designimage1" src="./resources\images\course-design.jpg"/>
+                   </div>
+
+                   <div class="Designcontent">
+                      <h2 class="Design"> Design </h2>
+                      <h3 class="DesignCourses"> Courses </h3>
+                      <h3 class="DesignCourselist"> User Experience Design, User
+                      Research, Visual Design</h3>
+                   </div>
+             </div>
+
+             <div class="DataSection">
+                  <div class="Dataimage">
+                      <img class="Dataimage1" src="./resources\images\course-data.jpg"/>
+                   </div>
+
+                   <div class="Datacontent">
+                      <h2 class="Data"> Data </h2>
+                      <h3 class="DataCourses"> Courses </h3>
+                      <h3 class="DataCourselist"> Data Science, Big Data, SQL,
+                      Data Visualization</h3>
+                   </div>
+             </div>
+
+             <div class="BusinessSection">
+                  <div class="Businessimage">
+                      <img class="Businessimage1" src="./resources\images\course-business.jpg"/>
+                   </div>
+
+                   <div class="Businesscontent">
+                      <h2 class="Business"> Business </h2>
+                      <h3 class="BusinessCourses"> Courses </h3>
+                      <h3 class="BusinessCourselist"> Product Development,
+                      Business Development, Startup</h3>
+                   </div>
+             </div>
+
+             <div class="MarketingSection">
+                  <div class="Marketingimage">
+                      <img class="Marketingimage1" src="./resources\images\course-marketing.jpg"/>
+                   </div>
+
+                   <div class="Marketingcontent">
+                      <h2 class="Marketing"> Marketing </h2>
+                      <h3 class="MarketingCourses"> Courses </h3>
+                      <h3 class="MarketingCourselist"> Analytics, Content Marketing,
+                      Mobile Marketing</h3>
+                   </div>
+             </div>
+
+
+          </div>  <!-- closing tag div class="courses" -->
+
+
+        </div>  <!--closing tag div class="main3section" -->
+
+                     <!--Thesis Exhibit Section -->
+
+        <div class="mainbottom">
+
+           <h1 class="Thesisexhibit"> Thesis exhibit </h1>
+
+           <div class="ThesisprojectsSection">
+
+                <div class="Thesismainproject">
+                      <div class="Thesisvideo">
+                          <video class="Thesisvideo1" src="./resources\videos\thesis.mp4" controls> Video not supported </video>
+                      </div>
+
+                      <div class="Thesismainprojectcontent">
+                          <h2 class="Reimagineurgan"> Reimagine urban </h2>
+                          <p class="Reimagineparagraph"> "Curabitur vitae libero in ipsum porttitor consequat.
+                            Aliquam et commodo lectus, nec consequat neque. Sed non accumsan
+                            urna. Phasellus sed consequat ex. Etiam eget magna laoreet,
+                            efficitur dolar consequat, tristique ligula."</p>
+                      </div>
+
+                </div>
+
+                <div class="Thesisotherprojects">
+
+                      <div class="FismaThesisSection">
+                            <div class="Fismaimage">
+                                <img class="Fismaimage1" src="./resources\images\thesis-fisma.jpg" />
+                            </div>
+
+                            <div class="Fismacontent">
+                                <h2 class="Fismahighlight1"> Fisma:Design and Prototype </h1>
+                                <p class="Fismahighlight2"> Designer showcase of new prototype product</p>
+                            </div>
+
+                      </div>
+
+                      <div class="NewYorkThesisSection">
+                            <div class="NYCimage">
+                                <img class="NYCimage1" src="./resources\images\thesis-now-and-then.jpg" />
+                            </div>
+
+                            <div class="NYCcontent">
+                                <h1 class="NowandThen"> Now and then </h1>
+                                <p class="NYCresearch"> Research study about New York</p>
+                            </div>
+
+                      </div>
+
+                  </div>  <!-- closing tag div class="Thesisotherprojects" -->
+
+            </div> <!--closing tag div class+"ThesisprojectsSection"-->
+
+        </div>  <!-- div class="mainbottom"-->
 
     </main>
 
