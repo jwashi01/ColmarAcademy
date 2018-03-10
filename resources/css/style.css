@@ -67,6 +67,7 @@ a:hover {
   letter-spacing: 0.1rem;
   padding-left:0.1rem;
 }
+
 .Oncampus {
   padding-right:1rem;
   color:lightgray;
@@ -335,7 +336,6 @@ main {
   flex-wrap:wrap;
   padding-right:4.5rem;
   padding-left:4.5rem;
-
 }
 
 .SoftwareEngineeringSection {
@@ -639,13 +639,14 @@ footer{
   font-weight: normal;
 }
 
+
 @media only screen and (max-width:1060px) {
+
   /*Header Section */
 
 .oncampuslink{
   font-size:1rem;
 }
-
 
 
 .onlinelink {
@@ -672,7 +673,6 @@ footer{
 
 .learnnew {
      font-size:2rem;
-
 }
 
 .Loremipsum{
@@ -735,8 +735,8 @@ footer{
 
 .Startlearning {
   text-align: center;
-  font-size:2rem;
-  padding-top:1rem;
+  font-size:3rem;
+  padding-top:2rem;
   padding-bottom:1rem;
 }
 
@@ -915,7 +915,7 @@ footer{
 /*Thesis Section*/
 
 .Thesisexhibit {
-  font-size: 2rem;
+  font-size: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -965,6 +965,9 @@ footer{
 }
 
 
+
+}
+
 @media only screen and (max-width:768px) {
 
 /*Header Section*/
@@ -974,6 +977,7 @@ footer{
     justify-content: space-around;
     padding-top:1rem;
   }
+
 
   .desktopnavigation{
     display:none;
@@ -1016,10 +1020,13 @@ footer{
 
 .learnnew {
   text-align:center;
+  font-size:2.5rem;
 }
 
 .Loremipsum {
   text-align:center;
+  font-size:1.75rem;
+  padding-bottom:1.25rem;
 }
 
 .Startherebutton{
@@ -1233,10 +1240,11 @@ footer{
 
 
 
-  }
-
-
 /*Thesis Section*/
+
+.Thesisexhibit{
+  font-size:3rem;
+}
 
 .Thesismainproject{
   width:100%;
@@ -1261,5 +1269,143 @@ footer{
 
 @media only screen and (max-width:480px) {
 
+
+/*Sign-up Section*/
+
+.maintopsectioncontent{
+  text-align:center;
+}
+
+.learnew{
+  font-size:2rem;
+}
+
+.Loremipsum{
+  text-align:center;
+   margin:0 auto;
+   padding-top:1.8rem;
+}
+
+.Startherebutton{
+  margin-left:1rem;
+  margin-top:1.8rem;
+}
+
+/*About School Section*/
+.orientationdate{
+  line-height:2rem;
+}
+
+.Ourcampus{
+  line-height:2rem;
+}
+
+/*Courses Section*/
+
+.SoftwareEngineering{
+  padding-left:1rem;
+  padding-top:1rem;
+  padding-bottom:1.5rem;
+  font-size:1.25rem;
+}
+
+.SECourses{
+  display:none;
+}
+
+.SECourselist{
+  display:none;
+}
+
+.ComputerArt{
+  padding-left:1rem;
+  padding-top:1rem;
+  padding-bottom:1.5rem;
+  font-size:1.25rem;
+}
+
+.ComputerArtCourses{
+  display:none;
+}
+
+.ComputerArtCourselist{
+  display:none;
+}
+
+.Design{
+  padding-left:1rem;
+  padding-top:1rem;
+  padding-bottom:1.5rem;
+  font-size:1.25rem;
+}
+
+.DesignCourses{
+  display:none;
+}
+
+.DesignCourselist{
+  display:none;
+}
+
+.Data{
+  padding-left:1rem;
+  padding-top:1rem;
+  padding-bottom:1.5rem;
+  font-size:1.25rem;
+}
+
+.DataCourses{
+  display:none;
+}
+
+.DataCourselist{
+  display:none;
+}
+
+.Business{
+  padding-left:1rem;
+  padding-top:1rem;
+  padding-bottom:1.5rem;
+  font-size:1.25rem;
+}
+
+.BusinessCourses{
+  display:none;
+}
+
+.BusinessCourselist{
+  display:none;
+}
+
+.Marketing{
+  padding-left:1rem;
+  padding-top:1rem;
+  padding-bottom:1.5rem;
+  font-size:1.25rem;
+}
+
+.MarketingCourses{
+  display:none;
+}
+
+.MarketingCourselist{
+  display:none;
+}
+
+/*Thesis Exhibit Section*/
+
+.mainbottom{
+  margin-bottom:1.8rem;
+}
+
+.Thesismainprojectcontent{
+  display:none;
+}
+
+/*Footer Section*/
+
+footer {
+  background-color:#f3f3f3;
+}
 
 }
