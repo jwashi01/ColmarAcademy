@@ -6,6 +6,7 @@ html {
   font-family:"Helvetica", sans-serif;
   font-size:16px;
   color:#4A4A4A;
+  background-color:#f3f3f3;
 }
 
   /* Header Section */
@@ -20,6 +21,16 @@ header {
 
 a {
   text-decoration:none;
+}
+
+a:hover {
+  color:blue;
+  font-weight:bold;
+}
+
+.desktopnavigation a:hover{
+  color:blue;
+  font-weight:bold;
 }
 
 .header {
@@ -126,13 +137,18 @@ main {
 }
 
 .learnnew {
-  font-size:3.25rem;
+  /*font-size:3.25rem;*/
+  font-size:2.5rem;
   color:#4A4A4A;
+  margin:0 auto;
 }
 
 .Loremipsum {
   color:#4A4A4A;
-  font-size:1.8rem;
+  /*font-size:1.8rem;*/
+  font-size:1.5rem;
+  margin-right:3rem;
+  line-height:1.4;
 }
 
 .Startherebutton{
@@ -145,6 +161,21 @@ main {
   border-radius: 0.25rem;
 }
 
+.Startherebutton:hover{
+   background-color: #9DC20A;
+   transition-property:background-color;
+   transition-duration:1ms;
+   transition-timing-function: linear;
+}
+
+.startherelink:hover{
+  color:#4A4A4A;
+  font-weight:bold;
+  transition-duration:1ms;
+  transition-timing-function: linear;
+}
+
+
 .startherelink {
   color:white;
   font-size:1.5rem;
@@ -153,13 +184,14 @@ main {
 /* About School Section */
 
 .main2section {
-  margin-top:2rem;
   display:flex;
+  background-color:#f3f3f3;
 }
 
 .Keeppracticingsection {
   width:60%;
   padding-left:1.8rem;
+  padding-top:2rem;
 }
 
 .main2image {
@@ -168,6 +200,7 @@ main {
 
 .keeppracticingcontent {
   width:97%;
+  line-height: 1.4;
 }
 
 .keeppracticing {
@@ -176,28 +209,34 @@ main {
 
 .Curabitur {
   margin-bottom:2rem;
+  font-size:1rem;
 }
 
 .Emanuel {
   margin-bottom:2rem;
+  font-size:1rem;
 }
 
 .InfoSection {
   width:40%;
+  padding-top:2rem;
 }
 
 .OrientationSection {
   display:flex;
   margin-bottom:1rem;
+  line-height: 1.25rem;
 }
 
 .orientationimage {
   width:35%;
+  padding-left:1rem;
 }
 
 .orientationimagedesktop{
   width:100%;
   height:auto;
+
 }
 
 .orientationimagemobile {
@@ -217,16 +256,26 @@ main {
 
 .campusimage{
   width:35%;
+  padding-top:1rem;
+  padding-left:1rem;
 }
 
 .campusdesktopimage{
   width:100%;
   height:auto;
+
 }
 
 .ourcampuscontent {
   width:65%;
   padding-left:2rem;
+  padding-top:1rem;
+  line-height: 1.25rem;
+}
+
+.Ourcampus {
+  padding:bottom:0rem;
+  line-height:0.5rem;
 }
 
 .campusmobileimage {
@@ -236,6 +285,8 @@ main {
 .GuestlectureSection {
   display:flex;
   margin-bottom:1rem;
+  padding-top:1rem;
+  padding-left:1rem;
 }
 
 .guestlectureimage{
@@ -243,13 +294,19 @@ main {
 }
 
 .guestlecturedesktopimage{
-  width:100%;
+  width:95%;
   height:auto;
+}
+
+.guestlecture{
+  margin-top:1rem;
 }
 
 .guestlecturecontent {
   width:65%;
-  padding-left:2rem;
+  padding-left:1.2rem;
+  padding-right:1.2rem;
+  line-height: 1.25rem;
 }
 
 .guestlecturemobileimage {
@@ -260,7 +317,8 @@ main {
 /* Courses Section */
 
 .main3section {
-  margin-top:2rem;
+  /*margin-top:2rem;*/
+  margin:0 auto;
   padding-bottom:4rem;
   background:lightgray;
 }
@@ -284,6 +342,7 @@ main {
   width:30%;
   background-color:white;
   margin-right:2rem;
+  line-height: 1.4;
 }
 
 .Softwareimage {
@@ -297,10 +356,20 @@ main {
   padding-bottom:0.8rem;
 }
 
+.SECourses {
+  font-weight:lighter;
+}
+
+.SECourselist {
+  font-weight:lighter;
+}
+
+
 .ComputerArtSection {
   width:30%;
   background-color:white;
   margin-right:2rem;
+  line-height: 1.4;
 }
 
 .CArtimage {
@@ -314,9 +383,26 @@ main {
   padding-bottom:0.8rem;
 }
 
+.ComputerArtCourses {
+  font-weight:lighter;
+}
+
+.ComputerArtCourselist{
+  font-weight:lighter;
+}
+
+.DesignCourses {
+  font-weight:lighter;
+}
+
+.DesignCourselist{
+  font-weight:lighter;
+}
+
 .DesignSection {
   width:30%;
   background-color:white;
+  line-height: 1.4;
 }
 
 .Designimage1 {
@@ -328,6 +414,7 @@ main {
 .Designcontent {
   margin:1rem;
   padding-bottom:0.8rem;
+  line-height: 1.4;
 }
 
 .DataSection {
@@ -335,6 +422,7 @@ main {
   background-color:white;
   margin-top:2rem;
   margin-right:2rem;
+  line-height: 1.4;
 }
 
 .Dataimage1 {
@@ -346,13 +434,24 @@ main {
 .Datacontent{
   margin:1rem;
   padding-bottom:0.8rem;
+  line-height: 1.4;
 }
+
+.DataCourses{
+  font-weight:lighter;
+}
+
+.DataCourselist{
+  font-weight:lighter;
+}
+
 
 .BusinessSection {
   width:30%;
   background-color:white;
   margin-top:2rem;
   margin-right:2rem;
+  line-height: 1.4;
 }
 
 .Businessimage1 {
@@ -364,12 +463,22 @@ main {
 .Businesscontent {
   margin:1rem;
   padding-bottom:0.8rem;
+  line-height: 1.4;
+}
+
+.BusinessCourses{
+  font-weight: lighter;
+}
+
+.BusinessCourselist{
+  font-weight: lighter;
 }
 
 .MarketingSection {
   width:30%;
   background-color:white;
   margin-top:2rem;
+  line-height: 1.4;
 }
 
 .Marketingimage1 {
@@ -381,4 +490,776 @@ main {
 .Marketingcontent {
   margin:1rem;
   padding-bottom:0.8rem;
+  line-height: 1.4;
+}
+
+.MarketingCourses{
+  font-weight: lighter;
+}
+
+.MarketingCourselist{
+  font-weight: lighter;
+}
+
+
+/* Thesis Exhibit Section */
+
+.mainbottom {
+   background-color:#f3f3f3;
+}
+
+.Thesisexhibit {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.ThesisprojectsSection {
+  margin-top:2rem;
+  display:flex;
+}
+
+.Thesismainproject {
+  width:60%;
+  padding-left:1.8rem;
+  padding-right:2rem;
+}
+
+.Thesisvideo {
+  width:100%;
+}
+
+.Thesisvideo1 {
+  width:100%;
+}
+
+
+.Thesismainprojectcontent {
+  width:97%;
+}
+
+.Reimagineurgan {
+  padding-top:1.8rem;
+  padding-bottom:0.8rem;
+}
+
+.Reimagineparagraph {
+  padding-bottom:2rem;
+  line-height: 1.4;
+}
+
+.Thesisotherprojects {
+  width:40%;
+}
+
+.FismaThesisSection {
+  display:flex;
+  margin-bottom:1rem;
+  padding-top:1rem;
+}
+
+.Fismaimage {
+  width:35%;
+  padding-left:1rem;
+}
+
+.Fismaimage1{
+  width:100%;
+  height:auto;
+
+}
+
+.Fismacontent {
+  width:65%;
+  padding-left:2rem;
+}
+
+
+.NewYorkThesisSection {
+  display:flex;
+  margin-bottom:1rem;
+}
+
+.NYCimage{
+  width:35%;
+  padding-top:1rem;
+  padding-left:1rem;
+}
+
+.NYCimage1{
+  width:100%;
+  height:auto;
+}
+
+.NYCcontent {
+  width:65%;
+  padding-left:2rem;
+  padding-top:2rem;
+}
+
+
+footer{
+  background-color:darkgray;
+  position:relative;
+  z-index:5;
+  top:2rem;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  height:6rem;
+  padding-right: 1.8rem;
+  padding-left: 1.8rem;
+  padding-top:1rem;
+  color: #4A4A4A;
+}
+
+.copyright2016 {
+  color:#4A4A4A;
+}
+
+.termslink {
+  color:#4A4A4A;
+  font-size:1.25rem;
+  padding-right:1rem;
+}
+
+.termslink:hover {
+  color:blue;
+  font-weight: normal;
+}
+
+.privacylink {
+  color:#4A4A4A;
+  font-size:1.25rem;
+}
+
+.privacylink:hover {
+  color:blue;
+  font-weight: normal;
+}
+
+@media only screen and (max-width:1060px) {
+  /*Header Section */
+
+.oncampuslink{
+  font-size:1rem;
+}
+
+
+
+.onlinelink {
+  font-size:1rem;
+}
+
+.companylink{
+  font-size:1rem;
+}
+
+.signinlink {
+  font-size:1rem;
+}
+
+/*Sign-up Section*/
+
+.maintopsectionimage {
+    margin-right:2rem;
+}
+
+.maintopsectioncontent{
+    padding-top:2rem;
+}
+
+.learnnew {
+     font-size:2rem;
+
+}
+
+.Loremipsum{
+     font-size:1.25rem;
+}
+
+.Startherebutton{
+     padding-top: 0.4rem;
+     padding-bottom: 0.4rem;
+     width: 85%;
+}
+
+/*About Section*/
+
+.keeppracticing {
+  font-size:1.5rem;
+}
+
+.Curabitur {
+  width:90%;
+}
+
+
+.OrientationSection{
+  margin-bottom:0.25rem;
+}
+
+.orientationdate {
+  font-size:1rem;
+  margin:0 auto;
+}
+
+.dates {
+  font-size:1rem;
+}
+
+.OurcampusSection {
+  margin-bottom:0.25rem;
+}
+
+.Ourcampus {
+  font-size:1rem;
+  margin:0 auto;
+}
+
+.guestlecture{
+  font-size:1rem;
+  margin:0 auto;
+}
+
+/*Courses Section*/
+/* Courses Section */
+
+.main3section {
+  /*margin-top:2rem;*/
+  margin:0 auto;
+  padding-bottom:2rem;
+  background:lightgray;
+}
+
+.Startlearning {
+  text-align: center;
+  font-size:2rem;
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+
+.courses {
+  display:flex;
+  flex-wrap:wrap;
+  padding-right:2rem;
+  padding-left:2rem;
+}
+
+.SoftwareEngineeringSection {
+  width:30%;
+  background-color:white;
+  margin-right:2rem;
+  line-height: 1.4;
+}
+
+.Softwareimage {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+}
+
+.SEcontent {
+  margin:0.25rem;
+  padding-bottom:0rem;
+  font-size:0.8rem;
+}
+
+.SECourses {
+  font-weight:lighter;
+}
+
+.SECourselist {
+  font-weight:lighter;
+}
+
+
+.ComputerArtSection {
+  width:30%;
+  background-color:white;
+  margin-right:2rem;
+  line-height: 1.4;
+}
+
+.CArtimage {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+}
+
+.ComputerArtcontent {
+  margin:0.25rem;
+  padding-bottom:0rem;
+  font-size:0.8rem;
+}
+
+.ComputerArtCourses {
+  font-weight:lighter;
+}
+
+.ComputerArtCourselist{
+  font-weight:lighter;
+}
+
+.DesignCourses {
+  font-weight:lighter;
+}
+
+.DesignCourselist{
+  font-weight:lighter;
+}
+
+.DesignSection {
+  width:30%;
+  background-color:white;
+  line-height: 1.4;
+}
+
+.Designimage1 {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+}
+
+.Designcontent {
+  margin:0.25rem;
+  padding-bottom:0rem;
+  font-size:0.8rem;
+}
+
+.DataSection {
+  width:30%;
+  background-color:white;
+  margin-top:2rem;
+  margin-right:2rem;
+  line-height: 1.4;
+}
+
+.Dataimage1 {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+}
+
+.Datacontent{
+  margin:0.25rem;
+  padding-bottom:0rem;
+  font-size:0.8rem;
+}
+
+.DataCourses{
+  font-weight:lighter;
+}
+
+.DataCourselist{
+  font-weight:lighter;
+}
+
+
+.BusinessSection {
+  width:30%;
+  background-color:white;
+  margin-top:2rem;
+  margin-right:2rem;
+  line-height: 1.4;
+}
+
+.Businessimage1 {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+}
+
+.Businesscontent {
+  margin:0.25rem;
+  padding-bottom:0rem;
+  font-size:0.8rem;
+}
+
+.BusinessCourses{
+  font-weight: lighter;
+}
+
+.BusinessCourselist{
+  font-weight: lighter;
+}
+
+.MarketingSection {
+  width:30%;
+  background-color:white;
+  margin-top:2rem;
+  line-height: 1.4;
+}
+
+.Marketingimage1 {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+}
+
+.Marketingcontent {
+  margin:0.25rem;
+  padding-bottom:0rem;
+  font-size:0.8rem;
+}
+
+.MarketingCourses{
+  font-weight: lighter;
+}
+
+.MarketingCourselist{
+  font-weight: lighter;
+}
+
+/*Thesis Section*/
+
+.Thesisexhibit {
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+.Reimagineurgan{
+  font-size:1.5rem;
+}
+
+.Reimagineparagraph{
+  font-size:1rem;
+  width:97%;
+}
+
+.FismaThesisSection{
+  padding-top:0rem;
+}
+
+.Fismahighlight1{
+  padding-top:0rem;
+  margin-top:0rem;
+  font-size:1rem;
+}
+
+.Fismahighlight2{
+  font-size:1rem;
+}
+
+
+.NowandThen{
+  padding-top:0rem;
+  margin-top:0rem;
+  font-size:1rem;
+}
+
+.NYCresearch{
+  font-size:1rem;
+}
+
+/*Footer Section*/
+.termslink{
+  font-size:1rem;
+}
+
+.privacylink{
+  font-size:1rem;
+}
+
+
+@media only screen and (max-width:768px) {
+
+/*Header Section*/
+  .mobilenavigation {
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    padding-top:1rem;
+  }
+
+  .desktopnavigation{
+    display:none;
+  }
+
+  .logo{
+    display:none;
+  }
+
+/*Sign up Section*/
+.maintopsection {
+  display:flex;
+  flex-direction:column;
+  padding-top:0rem;
+  padding-left:0rem;
+  width:100%;
+}
+
+.maintopsectionimage{
+  width:100%;
+  padding:0rem;
+  margin:0rem;
+}
+
+.banner1{
+  padding-bottom:0rem;
+  height:20rem;
+}
+
+.maintopsectioncontent{
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  width:100%;
+  padding-top:2rem;
+  padding-right:1rem;
+  padding-left:1rem;
+  padding-bottom:4rem;
+}
+
+.learnnew {
+  text-align:center;
+}
+
+.Loremipsum {
+  text-align:center;
+}
+
+.Startherebutton{
+ display:flex;
+ justify-content: center;
+ margin-left:2rem;
+}
+
+/*About School Section*/
+
+.Keeppracticingsection{
+  display:none;
+}
+
+.InfoSection{
+  width:100%;
+}
+
+.OrientationSection{
+  display:flex;
+  flex-direction: column;
+}
+
+.orientationimage {
+  width:100%;
+  padding:1rem;
+}
+
+.orientationimagemobile{
+  display:inline-block;
+  width:100%;
+
+}
+
+.orientationcontent{
+  width:100%;
+  padding-top:1rem;
+}
+
+.orientationdate{
+  font-size:2rem;
+}
+
+.dates {
+  font-size:1.25rem;
+}
+
+.Readmore{
+  font-size:1.25rem;
+}
+
+.orientationimagedesktop{
+  display:none;
+}
+
+.OurcampusSection{
+  display:flex;
+  flex-direction:column;
+  margin-top:2rem;
+  margin-bottom:2rem;
+}
+
+.campusimage {
+  width:100%;
+  padding:1rem;
+}
+
+.campusmobileimage{
+  display:inline;
+  width:100%;
+}
+
+.campusdesktopimage{
+  display:none;
+}
+
+.ourcampuscontent{
+  width:100%;
+}
+
+.Ourcampus{
+  font-size:2rem;
+  line-height: 1.25rem;
+}
+
+
+.Findcampus {
+  font-size:1.25rem;
+}
+
+.GuestlectureSection{
+  display:flex;
+  flex-direction:column;
+}
+
+.guestlectureimage {
+  width:100%;
+  padding-right:1rem;
+}
+
+.guestlecturemobileimage{
+  display:inline;
+  width:100%;
+}
+
+.guestlecturedesktopimage{
+  display:none;
+}
+
+.guestlecturecontent{
+  margin-top:2rem;
+}
+
+.guestlecture{
+  font-size:2rem;
+  line-height:1.25;
+}
+
+.keynote {
+  font-size:1.25rem;
+  line-height:1.5rem;
+}
+
+/*Courses Section*/
+
+.main3section{
+  background-color:#f3f3f3;
+}
+
+.Startlearning{
+  padding-top:0rem;
+  font-size:3rem;
+}
+
+  .courses{
+    display:flex;
+    flex-direction:column;
+  }
+
+.SoftwareEngineeringSection{
+  width:100%;
+  background-color:darkgray;
+  color:#4A4A4A;
+}
+
+.SEimage {
+    display:none;
+  }
+
+  .ComputerArtSection{
+    width:100%;
+    background-color:darkgray;
+    color:#4A4A4A;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+  }
+
+  .ComputerArtimage {
+      display:none;
+    }
+
+  .DesignSection{
+      width:100%;
+      background-color:darkgray;
+      color:#4A4A4A;
+      margin-bottom:0.5rem;
+    }
+
+  .Designimage {
+        display:none;
+  }
+
+  .DataSection{
+      width:100%;
+      background-color:darkgray;
+      color:#4A4A4A;
+      padding-top:0rem;
+      margin-top:0rem;
+      margin-bottom:0.5rem;
+  }
+
+  .Dataimage {
+        display:none;
+  }
+
+  .BusinessSection{
+      width:100%;
+      background-color:darkgray;
+      color:#4A4A4A;
+      padding-top:0rem;
+      margin-top:0rem;
+      margin-bottom:0.5rem;
+  }
+
+  .Businessimage {
+        display:none;
+  }
+
+  .MarketingSection{
+      width:100%;
+      background-color:darkgray;
+      color:#4A4A4A;
+      padding-top:0rem;
+      margin-top:0rem;
+      margin-bottom:0.5rem;
+  }
+
+  .Marketingimage {
+        display:none;
+  }
+
+
+
+  }
+
+
+/*Thesis Section*/
+
+.Thesismainproject{
+  width:100%;
+}
+
+.Thesisotherprojects{
+  display:none;
+}
+
+/*Footer Section*/
+  .siterules{
+    display:none;
+  }
+
+.copyright2016{
+  font-size:0.85rem;
+}
+
+
+}
+
+
+@media only screen and (max-width:480px) {
+
+
 }
