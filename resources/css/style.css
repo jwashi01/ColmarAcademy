@@ -124,12 +124,12 @@ main {
 
 .maintopsectionimage {
   width:60%;
-  margin-right:4rem;
+  margin-right:1.8rem;
 }
 
 .banner1 {
   width:100%;
-  padding-bottom:4rem;
+  padding-bottom:2rem;
 }
 
 .maintopsectioncontent {
@@ -193,6 +193,7 @@ main {
   width:60%;
   padding-left:1.8rem;
   padding-top:2rem;
+  padding-bottom:2rem;
 }
 
 .main2image {
@@ -287,11 +288,12 @@ main {
   display:flex;
   margin-bottom:1rem;
   padding-top:1rem;
-  padding-left:1rem;
+  padding-left:1.2rem;
 }
 
 .guestlectureimage{
   width:35%;
+  height:auto;
 }
 
 .guestlecturedesktopimage{
@@ -304,8 +306,8 @@ main {
 }
 
 .guestlecturecontent {
-  width:65%;
-  padding-left:1.2rem;
+  width:68%;
+  padding-left:1.3rem;
   padding-right:1.2rem;
   line-height: 1.25rem;
 }
@@ -320,7 +322,7 @@ main {
 .main3section {
   /*margin-top:2rem;*/
   margin:0 auto;
-  padding-bottom:4rem;
+  padding-bottom:2rem;
   background:lightgray;
 }
 
@@ -348,6 +350,7 @@ main {
 .Softwareimage {
   width:100%;
   height:auto;
+  height:auto;
   overflow:hidden;
 }
 
@@ -358,6 +361,8 @@ main {
 
 .SECourses {
   font-weight:lighter;
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
 }
 
 .SECourselist {
@@ -375,6 +380,7 @@ main {
 .CArtimage {
   width:100%;
   height:auto;
+  height:auto;
   overflow:hidden;
 }
 
@@ -385,6 +391,11 @@ main {
 
 .ComputerArtCourses {
   font-weight:lighter;
+}
+
+.ComputerArtCourses{
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
 }
 
 .ComputerArtCourselist{
@@ -417,6 +428,11 @@ main {
   line-height: 1.4;
 }
 
+.DesignCourses{
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+}
+
 .DataSection {
   width:30%;
   background-color:white;
@@ -439,6 +455,8 @@ main {
 
 .DataCourses{
   font-weight:lighter;
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
 }
 
 .DataCourselist{
@@ -468,6 +486,8 @@ main {
 
 .BusinessCourses{
   font-weight: lighter;
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
 }
 
 .BusinessCourselist{
@@ -495,6 +515,8 @@ main {
 
 .MarketingCourses{
   font-weight: lighter;
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
 }
 
 .MarketingCourselist{
@@ -523,7 +545,7 @@ main {
 .Thesismainproject {
   width:60%;
   padding-left:1.8rem;
-  padding-right:2rem;
+  padding-right:1.8rem;
 }
 
 .Thesisvideo {
@@ -572,7 +594,11 @@ main {
 
 .Fismacontent {
   width:65%;
-  padding-left:2rem;
+  padding-left:1rem;
+}
+
+.Fismahighlight1{
+  margin-bottom:0.5rem;
 }
 
 
@@ -594,16 +620,19 @@ main {
 
 .NYCcontent {
   width:65%;
-  padding-left:2rem;
+  padding-left:1rem;
   padding-top:2rem;
 }
 
+.NowandThen{
+  margin-bottom:0.5rem;
+}
 
 footer{
   background-color:darkgray;
   position:relative;
   z-index:5;
-  top:2rem;
+  top:1rem;
   display:flex;
   justify-content: space-between;
   align-items:center;
@@ -713,6 +742,11 @@ footer{
   margin-bottom:0.25rem;
 }
 
+.ourcampuscontent{
+  padding-top:1.5rem;
+}
+
+
 .Ourcampus {
   font-size:1rem;
   margin:0 auto;
@@ -724,7 +758,6 @@ footer{
 }
 
 /*Courses Section*/
-/* Courses Section */
 
 .main3section {
   /*margin-top:2rem;*/
@@ -1137,6 +1170,7 @@ footer{
 }
 
 .guestlecturecontent{
+  width:100%;
   margin-top:2rem;
 }
 
@@ -1276,14 +1310,15 @@ footer{
   text-align:center;
 }
 
-.learnew{
+.learnnew{
   font-size:2rem;
 }
 
 .Loremipsum{
   text-align:center;
    margin:0 auto;
-   padding-top:1.8rem;
+   padding-top:2rem;
+   font-size:1.5rem;
 }
 
 .Startherebutton{
@@ -1291,16 +1326,63 @@ footer{
   margin-top:1.8rem;
 }
 
+.startherelink{
+  font-size:1.25rem;
+}
+
 /*About School Section*/
+
+.main2section{
+  margin-bottom:2rem;
+}
+
+.InfoSection{
+  padding-top:1rem;
+  padding-left:1rem;
+  padding-right:1rem;
+}
+
 .orientationdate{
   line-height:2rem;
+  font-size:1.5rem;
 }
+
+.dates{
+  font-size:1rem;
+}
+
+.Readmore{
+  font-size:1rem;
+}
+
 
 .Ourcampus{
   line-height:2rem;
+  font-size:1.5rem;
 }
 
+.Findcampus{
+  font-size:1rem;
+}
+
+.guestlecturecontent{
+  width:100%;
+}
+
+.guestlecture{
+  font-size:1.5rem;
+}
+
+.keynote{
+  font-size:1rem;
+}
+
+
 /*Courses Section*/
+
+.Startlearning{
+  font-size:2rem;
+}
 
 .SoftwareEngineering{
   padding-left:1rem;
@@ -1311,6 +1393,7 @@ footer{
 
 .SECourses{
   display:none;
+
 }
 
 .SECourselist{
@@ -1396,6 +1479,14 @@ footer{
 
 .mainbottom{
   margin-bottom:1.8rem;
+}
+
+.ThesisprojectsSection{
+  margin-top:0rem;
+}
+
+.Thesisexhibit{
+  font-size:2rem;
 }
 
 .Thesismainprojectcontent{
