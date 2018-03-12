@@ -629,7 +629,7 @@ main {
 }
 
 footer{
-  background-color:darkgray;
+  background-color:#f3f3f3;
   position:relative;
   z-index:5;
   top:1rem;
